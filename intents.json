@@ -1,0 +1,652 @@
+[
+  {
+      "tag": "hospital_greeting",
+      "patterns": [
+          "Hello, I need some help",
+          "Hi, I'm looking for assistance",
+          "Good morning, can you help me?",
+          "Hi, I'm at the hospital, can you assist me?",
+          "Hey, I need to talk to someone"
+      ],
+      "responses": [
+          "Hello! How can I assist you today?",
+          "Hi there, what do you need help with?",
+          "Good morning! How can I assist you?",
+          "Hi! I’m here to help, what can I do for you?",
+          "Hello, how can I be of assistance?"
+      ]
+  },
+  {
+      "tag": "hospital_help",
+      "patterns": [
+          "I need medical assistance",
+          "Can you guide me to a doctor?",
+          "Where is the emergency room?",
+          "I need help, can someone assist me?",
+          "Can you provide first aid information?"
+      ],
+      "responses": [
+          "Sure! Let me guide you. What kind of assistance do you need?",
+          "I can help you find a doctor. What kind of specialist are you looking for?",
+          "The emergency room is located on the ground floor, near the main entrance.",
+          "How can I assist with your medical needs?",
+          "I can help you with first aid advice. Please provide more details."
+      ]
+  },
+  {
+      "tag": "hospital_appointments",
+      "patterns": [
+          "How can I book an appointment?",
+          "I need to schedule an appointment",
+          "Can I make an appointment online?",
+          "How do I book a consultation with a doctor?",
+          "What are the steps for appointment booking?"
+      ],
+      "responses": [
+          "You can book an appointment online through our website or call our helpline for assistance.",
+          "To schedule an appointment, please visit our online portal or contact our reception desk.",
+          "You can also book an appointment through our mobile app or by visiting the hospital in person.",
+          "Please provide your details and the specialist you wish to consult with. I can assist with that.",
+          "Appointments can be made via our website, or you can call our helpline for more details."
+      ]
+  },
+  {
+      "tag": "hospital_visiting_hours",
+      "patterns": [
+          "What are the visiting hours?",
+          "When can I visit a patient?",
+          "Can I visit in the evening?",
+          "What time are the visiting hours?",
+          "Are there any visiting restrictions?"
+      ],
+      "responses": [
+          "Our visiting hours are from 9 AM to 8 PM daily.",
+          "Visiting hours are from 9 AM to 8 PM, but please check with the patient's department for specific guidelines.",
+          "Please be aware that some departments may have specific visiting hours. Check with the respective department for details.",
+          "Currently, visiting hours are from 9 AM to 8 PM. We encourage you to follow the hospital's safety protocols during your visit.",
+          "In certain cases, visiting hours may vary depending on the patient's condition. Kindly confirm with the ward staff."
+      ]
+  },
+  {
+      "tag": "hospital_emergency",
+      "patterns": [
+          "Is there an emergency room here?",
+          "Where is the emergency department?",
+          "I need help, is there an emergency room?",
+          "How do I reach the emergency department?",
+          "What do I do in case of an emergency?"
+      ],
+      "responses": [
+          "Yes, our emergency room is located on the ground floor, right by the main entrance.",
+          "The emergency department is open 24/7. Please head to the main entrance for immediate assistance.",
+          "In case of an emergency, please go directly to the emergency department, or call our emergency helpline.",
+          "Our emergency department is available around the clock. If it's urgent, head straight to the ER.",
+          "In emergencies, please visit our emergency department or dial the emergency number for immediate help."
+      ]
+  },
+  {
+      "tag": "hospital_medical_records",
+      "patterns": [
+          "How can I access my medical records?",
+          "Where can I get my medical history?",
+          "Can I get a copy of my test results?",
+          "I need to access my past medical reports",
+          "How do I request my medical records?"
+      ],
+      "responses": [
+          "You can request your medical records at the hospital's records department. Please provide identification and a consent form.",
+          "To access your medical records, please visit the medical records office with proper identification.",
+          "You may also request your medical records online through our patient portal. Make sure to have your ID and consent ready.",
+          "Medical records are available at the hospital's records office. For convenience, you may also request them via email or online.",
+          "Please visit the medical records department for a physical copy, or request an electronic version through the patient portal."
+      ]
+  },
+  {
+      "tag": "hospital_facilities",
+      "patterns": [
+          "What facilities do you have?",
+          "Tell me about the hospital services",
+          "Do you have a pharmacy?",
+          "What are your hospital services?",
+          "Do you have an ICU?"
+      ],
+      "responses": [
+          "Our hospital offers a range of services including emergency care, inpatient and outpatient departments, a pharmacy, radiology, and laboratory services.",
+          "We have a fully equipped pharmacy, diagnostic center, and multiple specialized departments. Let me know if you need specific information.",
+          "We offer various specialized services such as pediatrics, cardiology, orthopedic care, and more. Feel free to ask for details.",
+          "Yes, we have an ICU, NICU, and a fully functioning pharmacy, along with other essential medical services.",
+          "Our hospital is equipped with advanced facilities, including emergency care, operating theaters, radiology, pathology, and a pharmacy."
+      ]
+  },
+  {
+      "tag": "hospital_location",
+      "patterns": [
+          "Where is the hospital located?",
+          "Can you give me directions to the hospital?",
+          "How do I get to the hospital?",
+          "Where is the nearest hospital?",
+          "What is the address of the hospital?"
+      ],
+      "responses": [
+          "Our hospital is located at [address]. You can take public transportation or drive directly to our main entrance.",
+          "Please use the address [address] for directions. We are located near [landmark].",
+          "You can use Google Maps or any navigation app for directions. Just search for [hospital name] at [address].",
+          "We are located at [address]. You can get here by [public transportation or driving]. Let me know if you need more details.",
+          "Our hospital is situated in the [neighborhood name], near [major landmark]. Please follow these directions to reach us."
+      ]
+  },
+  {
+      "tag": "hospital_staff",
+      "patterns": [
+          "Can I talk to a doctor?",
+          "I need to speak with a nurse",
+          "Who is the attending physician?",
+          "Is the doctor available now?",
+          "Can you provide the contact details of the medical team?"
+      ],
+      "responses": [
+          "Please wait while I connect you to the doctor or nurse on duty.",
+          "Let me connect you to a staff member right away.",
+          "I can provide you with the contact information for the doctor. Please let me know your query.",
+          "The attending physician for your case is Dr. [Name]. Would you like to speak with them?",
+          "I can help you get in touch with the medical team. Would you like assistance with contacting a specific doctor?"
+      ]
+  },
+  {
+      "tag": "hospital_feedback",
+      "patterns": [
+          "I want to give feedback",
+          "How can I provide my feedback?",
+          "Where can I submit a complaint?",
+          "I want to report something",
+          "How do I leave a review?"
+      ],
+      "responses": [
+          "We value your feedback. You can fill out a feedback form online or speak to a customer service representative at our helpdesk.",
+          "Please visit the feedback section on our website or share your comments with our customer service team.",
+          "You can submit your feedback through our website or at the reception. We appreciate your input to improve our services.",
+          "Feedback forms are available online and in the hospital. You can also leave a review via our patient portal.",
+          "Feel free to provide your feedback through our online portal, or speak directly to the hospital staff for any issues."
+      ]
+  },
+  {
+      "tag": "hospital_insurance",
+      "patterns": [
+          "Do you accept insurance?",
+          "What insurance plans do you accept?",
+          "How can I use my insurance for treatment?",
+          "Is insurance coverage available for surgery?",
+          "What are the insurance procedures?"
+      ],
+      "responses": [
+          "We accept a variety of insurance plans. Please check with our billing department for a complete list of providers.",
+          "Yes, we work with many insurance companies. You can provide your insurance details at the reception for verification.",
+          "For insurance inquiries, please contact our billing department. They will help guide you through the process.",
+          "We accept a range of insurance policies. Let me know your provider, and I can help you with further details.",
+          "Insurance is accepted here. Our billing team can guide you on how to process your claim. Please visit them for more details."
+      ]
+  },
+  
+  {
+        "tag": "doctor_specialist",
+        "patterns": [
+            "What specialists do you have?",
+            "Do you have a cardiologist?",
+            "I need a pediatrician",
+            "Do you have a dermatologist?",
+            "I need a neurologist",
+            "Are there any orthopedic specialists available?",
+            "Is there an ENT specialist?",
+            "Can you tell me about your specialists?"
+        ],
+        "responses": [
+            "We have a wide range of specialists including cardiologists, pediatricians, dermatologists, neurologists, orthopedics, ENT specialists, and more. Let me know which one you need.",
+            "Yes, we have a pediatrician available. Would you like to schedule an appointment with them?",
+            "Our dermatology department is open from 9 AM to 6 PM. Would you like me to schedule an appointment for you?",
+            "We have a dedicated cardiology department. Would you like more information or to book an appointment?",
+            "We have a highly experienced neurologist. Can I assist you in booking an appointment with them?",
+            "We have an orthopedic department that is open every weekday. Let me know if you want to make an appointment.",
+            "Our ENT specialists are available. You can consult with them during their regular office hours, which are from 10 AM to 4 PM."
+        ]
+    },
+    {
+        "tag": "doctor_availability",
+        "patterns": [
+            "When is Dr. [Name] available?",
+            "What time is the cardiologist available?",
+            "Can I see Dr. [Name] today?",
+            "When can I meet the dermatologist?",
+            "What are the consultation hours for Dr. [Name]?",
+            "Is Dr. [Name] free tomorrow?"
+        ],
+        "responses": [
+            "Dr. [Name] is available from [time] to [time] on [days of the week]. Would you like to book an appointment?",
+            "The cardiologist is available from 10 AM to 2 PM. Would you like to book a time slot?",
+            "Dr. [Name] is available today at [time]. Let me know if you would like to book the slot.",
+            "The dermatologist is available from 9 AM to 5 PM. Would you like to schedule a consultation?",
+            "Dr. [Name] is available for consultation at [time]. Please confirm if this time works for you.",
+            "Dr. [Name] is free tomorrow at [time]. I can help you schedule an appointment for that."
+        ]
+    },
+    {
+        "tag": "doctor_appointment",
+        "patterns": [
+            "How do I book an appointment with a specialist?",
+            "Can I book an appointment online?",
+            "How do I make an appointment with the pediatrician?",
+            "Can you help me schedule an appointment with a doctor?",
+            "I need to book an appointment for a check-up",
+            "How do I schedule an appointment with Dr. [Name]?"
+        ],
+        "responses": [
+            "You can book an appointment with a specialist online through our portal, or I can assist you with the booking process.",
+            "Appointments can be scheduled online or by calling the hospital reception. What date and time would work for you?",
+            "To book an appointment with the pediatrician, you can either use our website or I can help you set up a time now.",
+            "I can help you book an appointment with any doctor. Please let me know the name of the specialist and preferred time.",
+            "You can schedule an appointment via our hospital’s mobile app or website, or I can assist you over the phone.",
+            "To schedule an appointment with Dr. [Name], I need to check their availability. Let me find the next available time slot."
+        ]
+    },
+    {
+        "tag": "doctor_specialization_details",
+        "patterns": [
+            "Tell me more about the cardiology department",
+            "What does the pediatrician specialize in?",
+            "What treatments does the neurologist provide?",
+            "Can you tell me more about dermatology services?",
+            "What does an orthopedic doctor treat?",
+            "What conditions does an ENT specialist handle?",
+            "What services do you offer in gynecology?"
+        ],
+        "responses": [
+            "Our cardiology department specializes in heart disease diagnosis, treatment, and prevention, including services for hypertension, heart attack, and arrhythmia.",
+            "The pediatrician specializes in children's health, including preventive care, immunizations, and treatment for childhood illnesses.",
+            "The neurologist handles conditions related to the nervous system, including migraines, epilepsy, Parkinson's disease, and multiple sclerosis.",
+            "Our dermatology department offers services for skin conditions, including acne, eczema, psoriasis, and skin cancer screenings.",
+            "Orthopedic doctors treat bone, joint, and muscle conditions such as fractures, arthritis, sports injuries, and back pain.",
+            "ENT specialists treat conditions related to the ear, nose, and throat, including hearing loss, sinus infections, allergies, and sleep apnea.",
+            "Our gynecology department offers services related to women's health, including pregnancy care, menstruation issues, menopause, and reproductive health."
+        ]
+    },
+    {
+        "tag": "doctor_emergency_availability",
+        "patterns": [
+            "Is there a cardiologist available for an emergency?",
+            "Can I see an orthopedic doctor for an emergency?",
+            "Is there an emergency pediatrician available?",
+            "Do you have an ENT specialist available for emergencies?",
+            "Can I see a neurologist right away?",
+            "How fast can I get an emergency appointment?"
+        ],
+        "responses": [
+            "Yes, we have emergency cardiologists available 24/7. Please head to the emergency room if you need immediate care.",
+            "Our orthopedic department is available for emergencies. Please proceed to the emergency room for urgent care.",
+            "We have pediatricians available in the emergency department. Please bring your child in for immediate care.",
+            "ENT specialists are available for emergency care. You can visit the emergency department for immediate consultation.",
+            "We have neurologists on-call for emergencies. Please go to the emergency room or contact our helpline for immediate assistance.",
+            "Emergency appointments are available at any time, and we'll prioritize your case. Please visit the emergency room for urgent concerns."
+        ]
+    },
+    {
+        "tag": "doctor_consultation_fee",
+        "patterns": [
+            "What is the consultation fee for a pediatrician?",
+            "How much does it cost to see a cardiologist?",
+            "What are the consultation charges for Dr. [Name]?",
+            "How much is a visit to the dermatologist?",
+            "Do you have information about the neurologist's consultation fee?",
+            "What is the cost of an orthopedic consultation?"
+        ],
+        "responses": [
+            "The consultation fee for the pediatrician is [amount]. Additional costs may apply depending on the treatment.",
+            "The cardiology consultation fee is [amount]. If you need any tests or procedures, they may incur additional costs.",
+            "Consultation with Dr. [Name] is priced at [amount]. Let me know if you would like to proceed with booking the appointment.",
+            "The dermatology consultation fee is [amount]. Treatment costs will depend on the type of services you require.",
+            "The neurologist’s consultation fee is [amount]. Please ask if you need specific information about tests or treatments.",
+            "Orthopedic consultation is priced at [amount]. Any subsequent treatments or tests may have additional costs."
+        ]
+    },
+    {
+        "tag": "doctor_appointment_cancellation",
+        "patterns": [
+            "How do I cancel my appointment?",
+            "I need to cancel my appointment with Dr. [Name]",
+            "Can I reschedule my doctor’s appointment?",
+            "How do I cancel an appointment for today?",
+            "Can I change my appointment timing?"
+        ],
+        "responses": [
+            "To cancel your appointment, please call our reception or use the online portal. Would you like assistance with this?",
+            "You can cancel your appointment by visiting our online portal or contacting our reception. Please provide your appointment details.",
+            "I can help you reschedule your appointment. Let me know your preferred date and time.",
+            "Please visit the patient portal to cancel your appointment. Alternatively, you can call our reception desk.",
+            "If you need to change your appointment time, I can assist you in selecting a new slot. Let me know your preferences."
+        ]
+    },
+    {
+        "tag": "doctor_waiting_time",
+        "patterns": [
+            "How long will I have to wait to see a doctor?",
+            "What is the average wait time for an appointment?",
+            "How long is the waiting time for the pediatrician?",
+            "How much time should I allow for seeing a neurologist?",
+            "What is the estimated wait for the cardiologist?"
+        ],
+        "responses": [
+            "The average wait time for an appointment is between 15 to 30 minutes, but it may vary depending on the doctor’s schedule.",
+            "For specialized consultations, the waiting time could be up to 30 minutes. Let me know if you need further assistance with scheduling.",
+            "The pediatrician is typically available within 20 minutes of your appointment time, though this may vary slightly.",
+            "For the neurologist, the typical waiting time is around 20 to 40 minutes depending on patient volume.",
+            "Cardiologists may have a longer wait time due to the nature of their consultations, usually around 30 to 45 minutes."
+        ]
+    },
+    
+    {
+          "tag": "doctor_location",
+          "patterns": [
+              "Where is the cardiologist's clinic located?",
+              "Can you tell me where the pediatrician is available?",
+              "Where can I find the orthopedic doctor?",
+              "Where is the dermatology department?",
+              "Which floor is the neurologist’s clinic?",
+              "Is the ENT specialist’s clinic in the same building?"
+          ],
+          "responses": [
+              "The cardiologist’s clinic is located on the 3rd floor, Room 305.",
+              "The pediatrician is available at our main clinic, located on the ground floor.",
+              "Our orthopedic department is located on the 2nd floor, Room 201.",
+              "The dermatology department is on the 4th floor, Room 401.",
+              "The neurologist’s clinic is on the 5th floor, Room 502.",
+              "Yes, the ENT specialist’s clinic is in the same building, located on the 2nd floor, Room 203."
+          ]
+      },
+      {
+          "tag": "doctor_expertise",
+          "patterns": [
+              "What are the qualifications of the pediatrician?",
+              "What experience does the cardiologist have?",
+              "How experienced is Dr. [Name] in dermatology?",
+              "Is the neurologist board-certified?",
+              "What qualifications do the ENT doctors have?",
+              "What certifications does the orthopedic surgeon hold?"
+          ],
+          "responses": [
+              "Our pediatrician, Dr. [Name], is board-certified in pediatric medicine with over 15 years of experience.",
+              "Dr. [Name], our cardiologist, is a fellow of the American College of Cardiology with 20 years of experience in the field.",
+              "Dr. [Name], the dermatologist, is a fellowship-trained dermatologist with extensive experience in treating complex skin conditions.",
+              "Yes, Dr. [Name] is a board-certified neurologist and a member of the American Neurological Association with over 10 years of practice.",
+              "Our ENT doctors are all board-certified and have undergone rigorous training in ear, nose, and throat disorders.",
+              "The orthopedic surgeon, Dr. [Name], is board-certified with additional certifications in sports medicine and trauma care."
+          ]
+      },
+      {
+          "tag": "doctor_treatment_methods",
+          "patterns": [
+              "What treatments do you offer for heart disease?",
+              "Can the pediatrician treat asthma?",
+              "What treatments does the dermatologist offer for acne?",
+              "How does the neurologist treat migraines?",
+              "What surgeries does the orthopedic doctor perform?",
+              "How does the ENT specialist treat sinus infections?"
+          ],
+          "responses": [
+              "Our cardiologist offers a wide range of treatments including medication, lifestyle counseling, angioplasty, and bypass surgery.",
+              "Yes, the pediatrician is experienced in treating asthma with medications, inhalers, and lifestyle changes for children.",
+              "The dermatologist provides treatments like topical medication, laser therapy, and acne scar treatments for acne.",
+              "The neurologist offers treatments for migraines such as prescription medications, lifestyle management, and specialized therapy like Botox injections.",
+              "The orthopedic doctor performs surgeries including joint replacements, fracture repairs, spinal surgeries, and arthroscopic surgeries.",
+              "ENT specialists treat sinus infections with antibiotics, nasal sprays, and, if necessary, sinus surgery for chronic cases."
+          ]
+      },
+      {
+          "tag": "doctor_follow_up",
+          "patterns": [
+              "When should I follow up with the cardiologist?",
+              "Do I need a follow-up visit with the pediatrician?",
+              "How soon should I return to see the dermatologist?",
+              "Do I need to schedule a follow-up for the neurologist?",
+              "When do I see the orthopedic doctor again?",
+              "How often should I return for follow-up appointments?"
+          ],
+          "responses": [
+              "It’s recommended to follow up with the cardiologist in 3-6 months, or sooner if you experience any symptoms.",
+              "A follow-up with the pediatrician is typically scheduled 1-2 months after the initial visit, or based on the child’s needs.",
+              "For dermatology, a follow-up is usually scheduled in 4-6 weeks to monitor skin improvements or response to treatments.",
+              "Follow-up visits with the neurologist depend on your condition. Typically, it’s recommended in 1-3 months or sooner if symptoms persist.",
+              "You should follow up with the orthopedic doctor in 6 weeks for post-surgery recovery or physical therapy monitoring.",
+              "Follow-up appointments are usually scheduled in 4-8 weeks, depending on your condition and treatment plan."
+          ]
+      },
+      {
+          "tag": "doctor_virtual_consultation",
+          "patterns": [
+              "Can I have a virtual consultation with a pediatrician?",
+              "Do you offer online consultations with cardiologists?",
+              "Can I see the dermatologist virtually?",
+              "Are virtual consultations available with the neurologist?",
+              "How do I book an online consultation with the orthopedic specialist?",
+              "Is the ENT specialist available for a virtual appointment?"
+          ],
+          "responses": [
+              "Yes, you can book a virtual consultation with the pediatrician. Let me know when you'd like to schedule it.",
+              "We do offer online consultations with cardiologists. Please provide your preferred time, and I’ll arrange it for you.",
+              "Yes, the dermatologist is available for online consultations. You can book an appointment through our website.",
+              "Virtual consultations with the neurologist are available. Would you like me to help you book an appointment?",
+              "You can schedule an online consultation with our orthopedic specialist. Please provide your preferred time.",
+              "Yes, we do offer virtual appointments with ENT specialists. Let me know when you’d like to schedule it."
+          ]
+      },
+      {
+          "tag": "doctor_referral",
+          "patterns": [
+              "Do I need a referral to see the pediatrician?",
+              "Can I see a cardiologist without a referral?",
+              "Do I need a referral from my primary doctor to see the neurologist?",
+              "Can I see an orthopedic surgeon without a referral?",
+              "Is a referral required for a dermatology consultation?",
+              "Do I need a referral to see the ENT specialist?"
+          ],
+          "responses": [
+              "A referral from your primary doctor is not required to see the pediatrician, but it may be helpful for certain cases.",
+              "No referral is needed to see the cardiologist. You can directly book an appointment with them.",
+              "A referral from your primary care doctor is typically required to see the neurologist, but we can assist you with the process.",
+              "You can directly book an appointment with the orthopedic surgeon without a referral.",
+              "A referral from your primary doctor is usually required for a dermatology consultation, especially for specialized treatments.",
+              "No referral is needed for an initial consultation with the ENT specialist, but it may be needed for certain procedures."
+          ]
+      },
+      {
+          "tag": "doctor_out_of_office",
+          "patterns": [
+              "Is Dr. [Name] out of the office today?",
+              "When will the pediatrician return?",
+              "Is the cardiologist available this week?",
+              "When is Dr. [Name] back from vacation?",
+              "Is the neurologist out of office today?",
+              "When is the orthopedic doctor available again?"
+          ],
+          "responses": [
+              "Dr. [Name] is out of the office today but will be back on [date]. Would you like to book an appointment for that date?",
+              "The pediatrician will be back on [date]. You can schedule an appointment for after that.",
+              "The cardiologist is available this week from [date]. Please let me know when you’d like to book an appointment.",
+              "Dr. [Name] is currently on vacation and will return on [date]. Feel free to book an appointment after that.",
+              "The neurologist is out of office today but will return on [date]. Let me know if you'd like to reschedule.",
+              "The orthopedic doctor is available again on [date]. Please confirm if you’d like to book an appointment for that time."
+          ]
+      },
+      {
+          "tag": "doctor_emergency_contact",
+          "patterns": [
+              "How can I contact a doctor in case of an emergency?",
+              "Who do I call for an emergency consultation with a cardiologist?",
+              "Is there an emergency pediatrician I can call?",
+              "How can I reach the orthopedic department after hours?",
+              "Who do I call if I need urgent dermatology advice?",
+              "What is the emergency number for the ENT department?"
+          ],
+          "responses": [
+              "For an emergency, please call our 24/7 emergency line at [emergency contact number].",
+              "You can reach the cardiologist on call by calling our emergency number at [emergency contact number].",
+              "In case of an emergency, you can contact our pediatrician through the 24/7 emergency line at [emergency contact number].",
+              "Our orthopedic department has an on-call specialist for emergencies. You can contact them at [emergency contact number].",
+              "If you need urgent dermatology advice, call our emergency helpline at [emergency contact number].",
+              "For emergency ENT services, please contact our 24/7 emergency department at [emergency contact number]."
+          ]
+      },
+      
+      {
+            "tag": "doctor_specializations",
+            "patterns": [
+                "What specialties does your hospital provide?",
+                "Can you list the different types of doctors available here?",
+                "Which specialists are available for consultation?",
+                "Do you have a specialist for diabetes management?",
+                "Do you have a geriatric specialist?",
+                "Are there any doctors specializing in fertility?"
+            ],
+            "responses": [
+                "We have specialists in cardiology, pediatrics, dermatology, neurology, orthopedics, ENT, gastroenterology, endocrinology, and more.",
+                "Our hospital has a wide range of specialists, including pediatricians, cardiologists, dermatologists, and more. Please let us know which one you are looking for.",
+                "Yes, we have specialists available in cardiology, dermatology, orthopedic surgery, internal medicine, and more.",
+                "We do have specialists for diabetes management. You can consult with our endocrinologists for personalized care.",
+                "Yes, we have a geriatric specialist who is trained in managing elderly care and health-related issues.",
+                "We have fertility specialists available for consultations. Let us know if you'd like to schedule an appointment."
+            ]
+        },
+        {
+            "tag": "doctor_availability",
+            "patterns": [
+                "What time is Dr. [Name] available today?",
+                "Is Dr. [Name] available this week?",
+                "Can I see the pediatrician tomorrow?",
+                "When can I book a consultation with the cardiologist?",
+                "What are the available hours for the neurologist?",
+                "When is the dermatologist free for an appointment?"
+            ],
+            "responses": [
+                "Dr. [Name] is available from 9:00 AM to 4:00 PM today. Would you like to book a time?",
+                "Dr. [Name] is available this week from [dates]. Please let us know your preferred time.",
+                "The pediatrician is available tomorrow between 10:00 AM and 2:00 PM. Let me know if you'd like to book a slot.",
+                "The cardiologist is available on [day] from 9:00 AM to 12:00 PM. Would you like to schedule an appointment?",
+                "The neurologist is available on [days]. The hours are from 10:00 AM to 4:00 PM. Let me know if you'd like to book.",
+                "The dermatologist is available on [dates] from 1:00 PM to 6:00 PM. You can schedule an appointment during these hours."
+            ]
+        },
+        {
+            "tag": "doctor_appointments",
+            "patterns": [
+                "How do I book an appointment with the orthopedic specialist?",
+                "What do I need to do to book a virtual consultation?",
+                "Can I book a doctor’s appointment online?",
+                "How do I schedule a consultation with the cardiologist?",
+                "How can I get an appointment with the pediatrician?",
+                "Do I need to fill any form for a doctor appointment?"
+            ],
+            "responses": [
+                "You can book an appointment with the orthopedic specialist through our website or by calling our reception.",
+                "To book a virtual consultation, you can simply go to our website, choose your doctor, and select the online consultation option.",
+                "Yes, you can book a doctor's appointment online. Just visit our website and choose the doctor and time slot that works for you.",
+                "You can schedule a consultation with the cardiologist by calling our front desk or using our online appointment system.",
+                "To schedule an appointment with the pediatrician, you can call us or book directly through our website.",
+                "Yes, you may need to fill out a brief form when booking an appointment. This will help us to better prepare for your visit."
+            ]
+        },
+        {
+            "tag": "doctor_cancellation",
+            "patterns": [
+                "How can I cancel my doctor’s appointment?",
+                "Can I reschedule my consultation with the neurologist?",
+                "I need to cancel my appointment with the pediatrician.",
+                "How do I cancel an appointment with Dr. [Name]?",
+                "Can I change the date for my orthopedic consultation?",
+                "Is it possible to cancel a virtual consultation?"
+            ],
+            "responses": [
+                "You can cancel your appointment by calling our clinic or by using the online appointment portal. Please let us know the details.",
+                "Yes, you can reschedule your consultation with the neurologist by calling us or through our website.",
+                "To cancel your pediatrician appointment, please call our office or send us an email with your cancellation request.",
+                "You can cancel your appointment with Dr. [Name] by calling our office or sending us an email. Please confirm your request.",
+                "Yes, you can change the date of your orthopedic consultation by calling our clinic or booking through the patient portal.",
+                "Yes, virtual consultations can be canceled by visiting the appointment page on our website or by calling our office."
+            ]
+        },
+        {
+            "tag": "doctor_fee",
+            "patterns": [
+                "What is the consultation fee for the cardiologist?",
+                "How much do I need to pay for an appointment with the pediatrician?",
+                "Do you have information on the cost of a dermatology consultation?",
+                "What are the charges for a virtual consultation with the neurologist?",
+                "How much is the orthopedic consultation fee?",
+                "Can you tell me the cost of a doctor’s visit?"
+            ],
+            "responses": [
+                "The consultation fee for the cardiologist is [amount]. Would you like to proceed with the booking?",
+                "The pediatrician’s consultation fee is [amount]. You can pay at the time of the appointment or through our online portal.",
+                "A dermatology consultation costs [amount]. You can pay through cash, card, or online options.",
+                "The fee for a virtual consultation with the neurologist is [amount]. You can pay online when booking your appointment.",
+                "The orthopedic consultation fee is [amount]. This can be paid when you visit the clinic.",
+                "Doctor's visit fees vary depending on the specialty and consultation type. Please let us know the doctor you are interested in for a precise fee."
+            ]
+        },
+        {
+            "tag": "doctor_timing_changes",
+            "patterns": [
+                "Did the pediatrician’s schedule change today?",
+                "Is there any change in Dr. [Name] availability?",
+                "Are there any timing changes for the cardiologist today?",
+                "Has the neurologist's schedule changed?",
+                "Is Dr. [Name] available at a different time today?",
+                "Has the orthopedic consultation time been updated?"
+            ],
+            "responses": [
+                "There is no change to the pediatrician’s schedule today. They will be available from 10:00 AM to 2:00 PM.",
+                "Dr. [Name]'s availability remains the same today. They are available from 9:00 AM to 3:00 PM.",
+                "There has been no change to the cardiologist's timings today. The doctor will be available from 9:00 AM to 12:00 PM.",
+                "The neurologist’s schedule is unchanged. They will be available from 10:00 AM to 4:00 PM today.",
+                "Dr. [Name] is available at the same time today, from 1:00 PM to 5:00 PM.",
+                "There is no change to the orthopedic consultation time. The doctor will be available from 11:00 AM to 3:00 PM."
+            ]
+        },
+        {
+            "tag": "doctor_medical_records",
+            "patterns": [
+                "How can I access my medical records?",
+                "Can I get a copy of my consultation notes from Dr. [Name]?",
+                "How do I request my medical history from the hospital?",
+                "Can I view my past appointments online?",
+                "How do I get a copy of my pediatrician visit report?",
+                "Can I get my dermatology consultation records?"
+            ],
+            "responses": [
+                "You can access your medical records by logging into our online portal. If you need assistance, please let us know.",
+                "You can request a copy of your consultation notes from Dr. [Name] through the patient portal or by contacting our office.",
+                "To request your medical history, simply call our medical records department or visit the online portal.",
+                "Yes, you can view your past appointments by logging into your account on our website.",
+                "To get a copy of your pediatrician visit report, please call our office or log into the portal for download options.",
+                "Your dermatology consultation records are available through the patient portal. Let us know if you need further help."
+            ]
+        },
+        {
+            "tag": "doctor_emergency_services",
+            "patterns": [
+                "What should I do in case of a medical emergency?",
+                "Where can I go for pediatric emergency care?",
+                "Do you offer emergency services for heart attacks?",
+                "Is there an emergency room for orthopedic injuries?",
+                "How do I access urgent care for dermatology?",
+                "Can I visit the ER for ENT emergencies?"
+            ],
+            "responses": [
+                "In case of a medical emergency, please call [emergency number] or visit the emergency room at [location].",
+                "For pediatric emergencies, our emergency department is open 24/7. Please head to the ER or call us at [emergency number].",
+                "Yes, we provide emergency care for heart attacks. Our emergency department is equipped to handle such cases.",
+                "Our emergency room has specialists available for orthopedic injuries, including fractures and joint issues. Please call [emergency number].",
+                "Urgent care for dermatology is available through our ER."
+            ]
+          }
+    
+  
+]
+
+
